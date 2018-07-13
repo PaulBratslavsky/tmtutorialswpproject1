@@ -1,0 +1,57 @@
+/*
+    Name: TM WP Project 1
+    Author: Paul Bratslavsky 
+    Author URI: http://www.paulbratslavsky.com
+    Description: Basic PHP theme
+    Version: 1.0.0 
+    Tags: Simple Theme, Gray, Mobile First
+*/
+
+.container {
+    max-width: 960px;
+    padding: 10px 5px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2E3E4E;
+    color: #EBEBEB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header  {
+    background-color: #505D6B;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0px;
+    color: #eee;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.main h3 {
+    background-color: #73BEDB;
+    color: #F7FBFD;
+    padding: 10px 15px;
+    width: 25%;
+
+}
+
+.main p {
+    color: #F7FBFD;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(38, 41, 44);
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+    color: #eee;
+}
