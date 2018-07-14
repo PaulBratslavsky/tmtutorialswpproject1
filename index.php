@@ -1,28 +1,4 @@
 <?php get_header(); ?>
-<body>
-    <header>
-        <div class="container flex-menu" >
-            <div class="logo">
-                <h1><?php bloginfo( 'name' ); ?></h1>
-                <span><?php bloginfo( 'description' ); ?></span>
-            </div>
-
-            <div class="menu">
-                <nav class="main-nav">
-                   <ul>
-                       <li>Home</li>
-                       <li>About</li>
-                       <li>Adopt</li>
-                       <li>Donate</li>
-                       <li>Contact</li>
-                       <li>Blog</li>
-                   </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    
-
     <div class="main">
         <div class="container" >
             <!-- Checks for Posts -->

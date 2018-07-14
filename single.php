@@ -1,13 +1,5 @@
 <?php get_header(); ?>
-<body>
-    <header>
-        <div class="container" >
-            <h1><?php bloginfo( 'name' ); ?></h1>
-            <span><?php bloginfo( 'description' ); ?></span>
-        </div>
-    </header>
-
-    <div class="main">
+ <div class="main">
         <div class="container" >
             <!-- Checks for Posts -->
             <?php if ( have_posts() ) : ?>

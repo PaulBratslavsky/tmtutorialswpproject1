@@ -50,13 +50,17 @@ header .menu {
     list-style-type: none;
 }
 
-.menu li {
+.menu-item {
     flex: 1;
-    
 }
 
-.menu li:hover {
+.menu-item a {
+    text-decoration: none;  
     color: #a5aeb7;
+}
+
+.menu-item a:hover {
+    color: #e2eaf1;
 }
 
 header h1, header span {
