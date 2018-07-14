@@ -31,20 +31,130 @@ header  {
     color: #eee;
 }
 
-header h1 {
+.flex-menu {
+    display: flex;
+}
+
+header .logo {
+    flex: 1;
+}
+
+header .menu {
+    flex: 2;
+    background: rgb(64, 74, 85);
+
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    flex: 1;
+    
+}
+
+.menu li:hover {
+    color: #a5aeb7;
+}
+
+header h1, header span {
     margin: 0;
 }
 
-.main h3 {
-    background-color: #73BEDB;
-    color: #F7FBFD;
-    padding: 10px 15px;
-    width: 25%;
+article {
+    background-color: #EBEBEB;
+    padding: 10px 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    
+}
+
+article .col-one {
+    flex: 2;
+    padding: 0 5px;
+}
+
+article .col-two {
+    flex: 1;
 
 }
 
-.main p {
+.post-thumb-sm img {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+}
+
+.article-single-post {
+    background-color: #EBEBEB;
+    padding: 0 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+article .col-one-single {
+    padding: 0 5px;
+}
+
+article .col-two-single {
+    flex: 1;
+
+}
+
+.post-thumb-lg img {
+    width: 960px;
+    height: auto;
+
+
+}
+
+
+
+
+article h3 {
+    background-color: #73BEDB;
     color: #F7FBFD;
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 50%;
+
+}
+
+article p {
+    color: rgb(101, 153, 179);
+}
+
+article small {
+    color: #505D6B;
+}
+
+article a {
+    text-decoration: none;
+    color: #F7FBFD; 
+}
+
+article a:hover {
+    text-decoration: none;
+    color: rgb(19, 69, 94); 
+}
+
+article .button  {
+    background-color: #D16F32;
+    color: #F7FBFD;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: inline-block;
+
 }
 
 footer {
