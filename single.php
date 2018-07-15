@@ -24,11 +24,12 @@
                             </div> 
                             <p><?php the_content(); ?></p>
     
-                            <a class="button" href="http://tmtutorialswpproject1.local/">
+                            <a class="button" href="http://tmtutorialswpproject1.local/index.php/blog/">
                                 Back
-                            </a>
-                            
+                            </a>                            
                         </div>
+
+    
                     </article>
                 <?php endwhile; ?>
             <?php else : ?>

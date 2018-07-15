@@ -13,8 +13,8 @@
     <header>
         <div class="container flex-menu" >
             <div class="logo">
-                <h1><?php bloginfo( 'name' ); ?></h1>
-                <span><?php bloginfo( 'description' ); ?></span>
+                <a href="http://tmtutorialswpproject1.local/"><h1><?php bloginfo( 'name' ); ?></h1></a>
+                <!--<span><?php bloginfo( 'description' ); ?></span> -->
             </div>
 
             <div class="menu">
